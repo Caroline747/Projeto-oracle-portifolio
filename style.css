@@ -40,6 +40,11 @@ body {
     font-family: "Montserrat", serif;
 }
 
+.apresentacao__links__subtitulo {
+    font-family: "Krona One", serif;
+    font-weight: 400;
+}
+
 .apresentacao__links {
     display: flex;
     flex-direction: column;
@@ -62,16 +67,16 @@ body {
     cursor: pointer;
 }
 
-img {
+.imagem-perfil {
     width: 100%;
     height: 600px;
   }
 
-img:hover {
+.imagem-perfil:hover {
     transform: scaleX(-1);
 }
 
 .apresentacao__links__link:hover {
     color: #000;
-    background-color: #22D4FD;
+    background-color: #f2f6f7;
 }
