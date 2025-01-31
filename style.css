@@ -59,6 +59,7 @@ body {
     text-decoration: none;
     color: #fff;
     font-family:"Montserrat", serif;
+    cursor: pointer;
 }
 
 img {
@@ -68,4 +69,9 @@ img {
 
 img:hover {
     transform: scaleX(-1);
+}
+
+.apresentacao__links__link:hover {
+    color: #000;
+    background-color: #22D4FD;
 }
